@@ -1,8 +1,8 @@
-version: '3.8'
+oversion: '3.8'
 
 services:
   app:
-    image: ghcr.io/espmatdev/mi-app:latest
+    image: ghcr.io/espmatdev/desafio5mespia:latest
     ports:
       - '3000:3000'
     depends_on:
