@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   app:
-    build: ghcr.io/espmatdev/mi-app:latest
+    image: ghcr.io/espmatdev/mi-app:latest
     ports:
       - '3000:3000'
     depends_on:
